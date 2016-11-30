@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1b6a5fe4-0a66-4123-ba42-4c02137257df</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>asyncio_tutorial.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,7 +27,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="asyncio_test.py" />
-    <Compile Include="asyncio_tutorial.py" />
     <Compile Include="process_pool.py" />
   </ItemGroup>
   <ItemGroup>
