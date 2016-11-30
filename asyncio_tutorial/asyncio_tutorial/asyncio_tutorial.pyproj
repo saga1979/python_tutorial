@@ -3,16 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>65fb168f-8c6e-4b2c-a4f0-84614acbda3e</ProjectGuid>
+    <ProjectGuid>1b6a5fe4-0a66-4123-ba42-4c02137257df</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>asyncio_tutorial.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>socket_tutorial</Name>
-    <RootNamespace>socket_tutorial</RootNamespace>
+    <Name>asyncio_tutorial</Name>
+    <RootNamespace>asyncio_tutorial</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
     <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
@@ -26,13 +25,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="echo_client.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="mt_server.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="select_server.py" />
+    <Compile Include="asyncio_test.py" />
+    <Compile Include="asyncio_tutorial.py" />
+    <Compile Include="process_pool.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.5" />

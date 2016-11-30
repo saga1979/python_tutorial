@@ -20,7 +20,7 @@ def echo_server(address):
                     data = s.recv(10000)                   
                     s.send(str.encode("Got:") + data)
                 except socket.error:
-                    print("close connetion:" + s.getsockname()[0])
+                    print("close connetion:" + str(s.getpeername()))
                     reads.remove(s)
 
 
